@@ -1,0 +1,33 @@
+// Auto-generated prebuilt Blueprint for external/google-benchmark
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.google-benchmark
+
+package {
+    default_applicable_licenses: ["external_google-benchmark_license"],
+}
+
+license {
+    name: "external_google-benchmark_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "LICENSE.txt",
+    ],
+}
+
+cc_prebuilt_library_static {
+    name: "libgoogle-benchmark",
+    host_supported: true,
+    vendor_available: true,
+    export_include_dirs: ["include"],
+    srcs: ["lib/libgoogle-benchmark.a"],
+}
+
+cc_prebuilt_library_static {
+    name: "libgoogle-benchmark-main",
+    host_supported: true,
+    vendor_available: true,
+    export_include_dirs: ["include"],
+    srcs: ["lib/libgoogle-benchmark-main.a"],
+}

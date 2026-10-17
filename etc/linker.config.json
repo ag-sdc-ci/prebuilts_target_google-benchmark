@@ -1,0 +1,23 @@
+{
+	"provideLibs": [	
+		    "libdummy_binary_libgoogle-benchmark-main.a-x86_64-v2.so",
+		    "libdummy_binary_libgoogle-benchmark-main.a.so",
+		    "libdummy_binary_libgoogle-benchmark-x86_64-v2.so.so",
+		    "libdummy_binary_libgoogle-benchmark.a-x86_64-v2.so",
+		    "libdummy_binary_libgoogle-benchmark.a.so",
+		    "libdummy_binary_libgoogle-benchmark.so.so",
+		    "libdummy_ext_google_benchmark-x86_64-v2.so",
+		    "libdummy_ext_google_benchmark.so",
+		    "libdummy_headers_ext_google_benchmark-x86_64-v2.so",
+		    "libdummy_headers_ext_google_benchmark.so",
+		    "libdummy_shared_google_benchmark-x86_64-v2.so",
+		    "libdummy_shared_google_benchmark.so"
+	],
+	"requireLibs": [	
+		    "libc++_shared.so",
+		    "libc.so",
+		    "libdl.so",
+		    "libm.so"
+	],
+	"visible": true
+}

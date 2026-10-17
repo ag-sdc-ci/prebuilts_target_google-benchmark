@@ -1,0 +1,6 @@
+shadow prebuilt repo: google-benchmark (target)
+  upstream: external/google-benchmark
+  api-level: 34 (branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.google.benchmark.apex
+  dev-src: extracted extractive payload (libgoogle-benchmark.a, libgoogle-benchmark-main.a, libgoogle-benchmark.so, headers) + root Android.bp
+  date: 2026-10-16
